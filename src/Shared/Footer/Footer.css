@@ -1,0 +1,7 @@
+.footer{
+    background-image: url('../../Images/Header/d4lkmbj-25c7abd6-7b0c-40e2-9cce-1e6984d6d49b.jpg');
+    display: flex;
+    justify-content: center; align-items: center;
+    padding: 60px;
+    color: whitesmoke;
+}

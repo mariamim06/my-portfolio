@@ -1,0 +1,21 @@
+.navbar{
+    background-image: url('../../Images/Header/d4lkmbj-25c7abd6-7b0c-40e2-9cce-1e6984d6d49b.jpg');
+    /* height: 60px; */
+}
+.navlink{
+    color: rgb(247, 220, 255);
+    border-radius: 20px;
+    font-weight: 500;
+}
+.navlink:hover{
+    background: linear-gradient(to left, #f3f1f3, rgb(243, 160, 243));
+    color:rebeccapurple;
+}
+.navbar::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to bottom, #36193d, transparent);
+    z-index: 1000;
+}
