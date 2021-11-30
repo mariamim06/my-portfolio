@@ -1,0 +1,52 @@
+[
+    
+    {"_id" : "1",
+    "name": "Paris Hill Tour",
+    "img1": "images/packages/p-5.png",
+    "img2": "images/packages/p-5.png",
+    "img3": "images/packages/p-5.png",
+    "livesite": "images/packages/p-5.png",
+    "clientcode": "images/packages/p-5.png",
+    "servercode": "images/packages/p-5.png",
+    "intro": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?You can even speak to our representative for special tailor made tour packages.",
+    "point1": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?",
+    "point2": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?",
+    "point3": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?",
+    "point4": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?",
+    "point5": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?"
+},
+    
+    {"_id" : "2",
+    "name": "Paris Hill Tour",
+    "img1": "images/packages/p-5.png",
+    "img2": "images/packages/p-5.png",
+    "img3": "images/packages/p-5.png",
+    "livesite": "images/packages/p-5.png",
+    "clientcode": "images/packages/p-5.png",
+    "servercode": "images/packages/p-5.png",
+    "intro": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?You can even speak to our representative for special tailor made tour packages.",
+    "point1": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?",
+    "point2": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?",
+    "point3": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?",
+    "point4": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?",
+    "point5": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?"
+},
+    
+    {"_id" : "3",
+    "name": "Paris Hill Tour",
+    "img1": "images/packages/p-5.png",
+    "img2": "images/packages/p-5.png",
+    "img3": "images/packages/p-5.png",
+    "livesite": "images/packages/p-5.png",
+    "clientcode": "images/packages/p-5.png",
+    "servercode": "images/packages/p-5.png",
+    "intro": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?You can even speak to our representative for special tailor made tour packages.",
+    "point1": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?",
+    "point2": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?",
+    "point3": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?",
+    "point4": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?",
+    "point5": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?"
+}
+
+
+]

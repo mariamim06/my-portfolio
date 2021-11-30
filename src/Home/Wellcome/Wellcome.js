@@ -18,7 +18,8 @@ const Wellcome = () => {
   //   stars.style.left = value + 'px';
   // })
     return (
-      <div className="wellcome">
+      <section>
+        <div className="wellcome">
         <h1>WELLCOME</h1>
         <img src={bg}/>
         <img src={star} id="stars"/>
@@ -29,6 +30,12 @@ const Wellcome = () => {
         {/* <img src={behind} id="behind"/> */}
         <img src={mountains_front} id="front"/>
       </div>
+      <div className="short-intro">
+        <h1>I'm a designer and developer devoted to craft <span id="special-word">beautiful</span> web experiences focusing on <span id="special-word">simplicity</span> and <span id="special-word">purpose</span>.</h1>
+        {/* <div className="underscore">&#95;</div> */}
+      </div>
+
+      </section>
 
       );
 

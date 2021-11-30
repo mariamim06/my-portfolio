@@ -1,0 +1,16 @@
+.blogs{
+    position: relative;
+    left: 0; right: 0;
+    margin: 0;
+    padding-top: 40vh;
+    background-image: url("../../Images/Background/../../Images/Header/d4lkmbj-25c7abd6-7b0c-40e2-9cce-1e6984d6d49b.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    height:100vh;
+    background-size: cover;
+    min-height:100%;
+    color: cyan;
+    text-align: center;
+}

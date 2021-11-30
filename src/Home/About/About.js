@@ -6,9 +6,9 @@ import profile from '../../Images/Profile/261306896_433069951518679_422125198420
 const About =() => {
     return (
       <div>
-         <div className="about">
-          <h1>Designer and developer devoted to crafting <span id="special-word">beautiful</span> web experiences focused on <span id="special-word">simplicity</span> and <span id="special-word">purpose</span>.</h1>
-        </div>
+         {/* <div className="about">
+          <h1>Designer and developer devoted to craft <span id="special-word">beautiful</span> web experiences focusing on <span id="special-word">simplicity</span> and <span id="special-word">purpose</span>.</h1>
+        </div> */}
         <div className="intro">
           {/* <img className="bg" src={bg} alt="" /> */}
          <div className="d-flex justify-content-center align-items-center about-me">

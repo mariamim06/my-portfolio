@@ -10,7 +10,7 @@ const Header =() =>{
         <>
         <Navbar sticky="top" className="navbar" variant="dark" collapseOnSelect expand="lg">
           <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand as={HashLink} to="/home">
           <img
           alt=""
           src={profile}
@@ -23,9 +23,11 @@ const Header =() =>{
       
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
-            <Nav.Link className="navlink" as={HashLink} to="/home#home">About Me</Nav.Link>
+            <Nav.Link className="navlink" as={HashLink} to="/aboutme">About Me</Nav.Link>
            <Nav.Link className="navlink" href="https://drive.google.com/file/d/1RmRb7BLYGMkuEvZ40zeRNJhLy_KfiQAf/view?usp=sharing">Resume</Nav.Link>
-            {/*  <Nav.Link as={HashLink} to="/home#packages">Packages</Nav.Link>
+           <Nav.Link className="navlink" as={HashLink} to="/projects">Projects</Nav.Link>
+           <Nav.Link className="navlink" as={HashLink} to="/blogs">Blogs</Nav.Link>
+           {/*  <Nav.Link as={HashLink} to="/home#packages">Packages</Nav.Link>
             <Nav.Link as={HashLink} to="/home#travellers">Travellers</Nav.Link>
             
             <div></div>
