@@ -9,6 +9,9 @@ import Projects from './Home/Projects/Projects';
 import Blogs from './Home/Blogs/Blogs';
 import TargatedProject from './TargatedProject/TargatedProject';
 import Footer from './Shared/Footer/Footer';
+import Project1 from './MyProjects/Project1/Project1';
+import Project2 from './MyProjects/Project2/Project2';
+import Project3 from './MyProjects/Project3/Project3';
 
 function App() {
   return (
@@ -40,6 +43,15 @@ function App() {
           {/* <Route path="/booking/:packageId">
           <TargatedProject></TargatedProject>
           </Route> */}
+          <Route path="/project1">
+          <Project1></Project1>
+          </Route>
+          <Route path="/project2">
+          <Project2></Project2>
+          </Route>
+          <Route path="/project3">
+          <Project3></Project3>
+          </Route>
         </Switch>
         <Footer></Footer>
       </Router>

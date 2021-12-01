@@ -10,23 +10,20 @@ const About =() => {
           <h1>Designer and developer devoted to craft <span id="special-word">beautiful</span> web experiences focusing on <span id="special-word">simplicity</span> and <span id="special-word">purpose</span>.</h1>
         </div> */}
         <div className="intro">
+          <h2>About Me</h2>
           {/* <img className="bg" src={bg} alt="" /> */}
-         <div className="d-flex justify-content-center align-items-center about-me">
+         <div className="d-flex justify-content-between align-items-center mx-5 px-5 about-me">
            
-             <h1>Hey there!</h1>
+             <h1 className="mx-5 px-5">Hey there!</h1>
            
            <img  width="200"
           height="200" className="rounded profile"  src={profile} alt="" />
          </div>
-         <p>My name is Lars Olson, and I like to design all kinds of things. I specialize in UI/UX design and game development, often doing both at the same time. I have a passion for making beautiful interfaces with excellent usability.
+         <p>I'm Maria Mim, a Junior Web Developer. From choreography on a stage to lines of code on a web page, I love combining the worlds of logic and creative design to make eye-catching, accessible, and user-friendly websites and applications.
 
-As a wearer of many hats, my experience also includes graphic design, typography, scripting, video editing, and sometimes making art in the third dimension. I'm always curious and always learning...
-‍
-​I'm a native Wisconsinite and certified lover of pineapple on pizza. I currently reside in Austin, Texas. I'm a co-founder of The Bread & Butter Game Co.
+Technology leads, society follows. The move towards increasing inclusivity and diversity in the industry through representation is of importance to me.
 
-My mission as a game developer is to combine creative mechanics, aesthetics, and a whole lot of polish - all in the name of making genuinely charming experiences that never get in the way of the player's fun.
-
-But most importantly, I never take myself too seriously.
+I'm excited to make the leap and continue refining my skills with the right company.
 </p>
         </div>
       </div>

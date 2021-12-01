@@ -17,6 +17,7 @@
     height:auto;
     background-size: cover;
     min-height:100%;
+    padding-bottom: 50px;
 }
 .projects h2{
     /* color: rgb(172, 222, 255); */
