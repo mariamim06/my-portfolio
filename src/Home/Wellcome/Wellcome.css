@@ -100,3 +100,57 @@
 #special-word{
     font-style: italic;
 }
+
+
+@media only screen and (max-width:688px){
+    .project{
+        display: flex;
+        flex-direction: column;
+    }
+    .wellcome img#moon{
+      visibility: hidden;
+    }
+    .short-intro h1{
+      
+    padding: 20px;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    }
+    #text1{
+        font-size: 5vw;
+        top: 2;
+        font-size: 2em;
+        transform: translateY(-70px);
+    } 
+    #text{
+        font-size: 5vw;
+        font-size: 1em;
+    }
+}
+@media only screen and (min-width:689px) and (max-width:991px){
+    .project{
+        display: flex;
+        flex-direction: column;
+    }
+    .short-intro h1{
+        padding: 30px;
+        font-size: 3em;
+    }
+    #text1{
+        font-size: 7.5vw;
+        top: 2;
+        /* margin-left: 30%; */
+        font-size: 4em;
+        z-index: 1000;
+        transform: translateY(-150px);
+    } 
+    #text{
+        position: absolute;
+        color: white;
+        white-space:nowrap;
+        font-size: 7.5vw;
+        font-size: 2em;
+        z-index: 100;
+        transform: translateY(0px);
+    }
+}

@@ -19,16 +19,16 @@ const Wellcome = () => {
   // })
     return (
       <section>
-        <div className="wellcome">
+        <div className="wellcome conatiner-fluid">
         <h1>WELLCOME</h1>
-        <img src={bg}/>
-        <img src={star} id="stars"/>
-        <img src={moon_} id="moon"/>
+        <img src={bg} className="img-fluid"/>
+        <img src={star} id="stars" className="img-fluid"/>
+        <img src={moon_} id="moon" className="img-fluid"/>
         <h2 id="text1">Hi, <br/> I'm Maria,</h2>
         <h2 id="text">Wellcome To My Portfolio Website</h2>
         <a href='#' id="btn">Contact Me</a>
         {/* <img src={behind} id="behind"/> */}
-        <img src={mountains_front} id="front"/>
+        <img src={mountains_front} className="img-fluid" id="front"/>
       </div>
       <div className="short-intro">
         <h1>I'm a designer and developer devoted to craft <span id="special-word">beautiful</span> web experiences focusing on <span id="special-word">simplicity</span> and <span id="special-word">purpose</span>.</h1>

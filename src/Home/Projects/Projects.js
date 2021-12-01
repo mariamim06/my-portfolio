@@ -17,14 +17,14 @@ const Projects = () => {
     return (
       <div className="projects"> 
           <svg className="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1c0522" fill-opacity="1" d="M0,224L40,229.3C80,235,160,245,240,208C320,171,400,85,480,80C560,75,640,149,720,160C800,171,880,117,960,133.3C1040,149,1120,235,1200,250.7C1280,267,1360,213,1400,186.7L1440,160L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
-          <h2>My Projects</h2>
+          <h2>Projects</h2>
             {
                 projects.map(proJect => <div key={proJect._id}>
-                  <section className="d-flex justify-content-between project">
+                  <section className=" project">
                   <Carousel>
   <Carousel.Item>
     <img
-      className="d-block img"
+      className="d-block img img-fluid"
       src={proJect.img1}
       alt="First slide"
     />
@@ -35,7 +35,7 @@ const Projects = () => {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block img"
+      className="d-block img img-fluid"
       src={proJect.img2}
       alt="Second slide"
     />
@@ -47,7 +47,7 @@ const Projects = () => {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block img"
+      className="d-block img img-fluid"
       src={proJect.img3}
       alt="Third slide"
     />

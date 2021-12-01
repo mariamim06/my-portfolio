@@ -52,6 +52,8 @@
 
 .project{
     /* padding: 50px; */
+    display: flex;
+    justify-content: space-between;
     color: rgb(41, 23, 2);
     border-radius: 5px;
     font-size: 1.5rem;
@@ -74,4 +76,30 @@
 }
 button{
     display: none;
+}
+
+
+@media only screen and (max-width:688px){
+    .project{
+        display: flex;
+        flex-direction: column;
+    }
+    .projects h2{
+        font-size: 1em;
+        letter-spacing: 0px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}
+@media only screen and (min-width:689px) and (max-width:991px){
+    .project{
+        display: flex;
+        flex-direction: column;
+    }
+    .projects h2{
+        font-size: 1em;
+        letter-spacing: 0px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
 }

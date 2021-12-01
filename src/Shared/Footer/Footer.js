@@ -4,7 +4,8 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div className="footer">
-            <small>© Copyright 2021 by Maria Mim</small>
+            <small>© Designed by Maria Mim 2021</small>
+
         </div>
     );
 };
