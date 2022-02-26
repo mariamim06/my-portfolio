@@ -8,10 +8,8 @@
     font-family: 'Lobster', cursive;
     color: darkgrey;
 }
-.btn{
-    background-color: violet;
-color: violet;
-}
+
+
 .drawer{
     /* background-image: url("../../Images/Background/../../Images/Header/d4lkmbj-25c7abd6-7b0c-40e2-9cce-1e6984d6d49b.jpg"); */
 
@@ -40,7 +38,7 @@ color: violet;
 background-color: rgb(61, 24, 95);
 width: 10rem;
 /* height: 3rem; */
-opacity: 70%;
+/* opacity: 70%; */
 color: rgb(248, 248, 248);
 border-radius: 15px;
 margin-top: .7rem;
