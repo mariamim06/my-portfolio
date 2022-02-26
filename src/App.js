@@ -12,18 +12,25 @@ import Footer from './Shared/Footer/Footer';
 import Project1 from './MyProjects/Project1/Project1';
 import Project2 from './MyProjects/Project2/Project2';
 import Project3 from './MyProjects/Project3/Project3';
+import Dashboard from './Shared/Dashboard/Dashboard';
+import Main from './Home/Main/Main';
 
 function App() {
   return (
     <div className="app">
       <Router>
-      <Header></Header>
+      {/* <Header></Header> */}
+      
+      {/* <Dashboard></Dashboard> */}
         <Switch>
         <Route exact path="/">
-            <Home></Home>
+        <Main></Main>
           </Route>
           <Route path="/home">
             <Home></Home>
+          </Route>
+          <Route path="/main">
+            <Main></Main>
           </Route>
           <Route path="/aboutme">
             <About></About>

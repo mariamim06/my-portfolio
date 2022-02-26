@@ -17,7 +17,7 @@ const Project3 = () => {
           <h2>My Project 3</h2>
             {
                 projects.slice(2, 3).map(proJect => <div key={proJect._id}>
-                  <section className="">
+                  <section className="project">
                   <Carousel>
   <Carousel.Item>
     <img
@@ -59,19 +59,18 @@ const Project3 = () => {
                       <h3>{proJect.name}</h3>
                       <p>{proJect.intro}</p> 
                       <Link to={`/project${proJect._id}`}>
-                      <button className="btn btn-warning my-2">View Details of {proJect.name.toLowerCase()} </button>
+                      <button className="btn my-btn my-2">View Details of {proJect.name.toLowerCase()} </button>
                       </Link>
                       <Link to={proJect.clientcode}>
-                      <button className="btn btn-warning m-2">Clientsite code </button>
+                      <button className="btn my-btn m-2">Clientsite code </button>
                       </Link>
                       <Link to={proJect.servercode}>
-                      <button className="btn btn-warning m-2">Serversite code </button>
+                      <button className="btn my-btn m-2">Serversite code </button>
                       </Link>
                       <p>1.{proJect.point1}</p> 
                       <p>2.{proJect.point1}</p> 
                       <p>3.{proJect.point1}</p> 
-                      <p>4.{proJect.point1}</p> 
-                      <p>5.{proJect.point1}</p> 
+                     
                     </div>
                   </section>
           </div>)

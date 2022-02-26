@@ -1,0 +1,36 @@
+.SendMail{
+    position: relative;
+    left: 0; right: 0;
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url("../../Images/Background/../../Images/Header/d4lkmbj-25c7abd6-7b0c-40e2-9cce-1e6984d6d49b.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    height:auto;
+    background-size: cover;
+    min-height:100%;
+    padding-top: 15rem;
+    margin-top: -13rem;
+    /* z-index: -1; */
+}
+.getInTouch{
+    /* font-size: 3rem; */
+    font-weight: 900;
+    padding-left: 3rem;
+    color: rgb(233, 202, 233);
+    width: 50%;
+    text-align: center;
+}
+.form h1{
+    font-family: 'Lobster', cursive;
+}
+.form{
+    background-color: rebeccapurple;
+    opacity: 70%;
+    margin: 3rem;
+    padding: 5rem;
+    border-radius: 15px;
+}

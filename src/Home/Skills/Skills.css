@@ -1,0 +1,54 @@
+.Skills{
+    position: relative;
+    left: 0; right: 0;
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url("../../Images/Background/../../Images/Header/d4lkmbj-25c7abd6-7b0c-40e2-9cce-1e6984d6d49b.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    height:auto;
+    background-size: cover;
+    min-height:100%;
+    display: grid ;
+    grid-template-columns: repeat(3, 1fr);
+color: snow;
+padding: 2rem;
+padding-bottom: 20rem;
+margin-bottom: -2rem;
+z-index: -100;
+}
+.Skill{
+    color:aliceblue ;
+    background-color: blueviolet;
+    padding:2rem;
+    padding-bottom:2rem;
+    margin: 2rem;
+    border-radius: 3rem;
+    opacity: 70%;
+}
+.Skill:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-out;
+}
+
+@media only screen and (max-width:688px){
+    .Skills{
+        grid-template-columns: repeat(1, 1fr);
+        padding: .5rem;
+        
+    }
+    .Skill{
+        max-width: 270px;
+    }
+}
+@media only screen and (min-width:689px) and (max-width:991px){
+    .Skills{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .Skill{
+        max-width: 900px;
+    }
+}

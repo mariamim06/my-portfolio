@@ -1,7 +1,7 @@
 import React from 'react';
 import './Wellcome.css';
 // import bg from '../../Images/Header/../../Images/Header/N8lAnTbplGS_iT-RxmfdHTnd6UcDCKsJ9nrcHbSr6LI.webp';
-import bg from '../../Images/Header/../../Images/Header/d4lkmbj-25c7abd6-7b0c-40e2-9cce-1e6984d6d49b.jpg';
+// import bg from '../../Images/Header/../../Images/Header/d4lkmbj-25c7abd6-7b0c-40e2-9cce-1e6984d6d49b.jpg';
 // import bg from '../../Images/Header/../../Images/Header/night-landscape-sea-moon-mountains-vector-cartoon-illustration-seascape-rocks-stone-ledge-over-sand-beach-ocean-227549801.jpg';
 import star from '../../Images/Header/stars.png';
 import moon_ from '../../Images/Header/moon.png';
@@ -20,8 +20,7 @@ const Wellcome = () => {
     return (
       <section>
         <div className="wellcome conatiner-fluid">
-        <h1>WELLCOME</h1>
-        <img src={bg} className="img-fluid"/>
+        {/* <img src={bg} className="img-fluid"/> */}
         <img src={star} id="stars" className="img-fluid"/>
         <img src={moon_} id="moon" className="img-fluid"/>
         <h2 id="text1">Hi, <br/> I'm Maria,</h2>

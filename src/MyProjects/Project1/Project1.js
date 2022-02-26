@@ -1,7 +1,7 @@
 import React, { useState, useEffect  } from 'react';
 import { Carousel, CarouselItem } from 'react-bootstrap';
 import {Link} from 'react-router-dom';
-// import './Project1.css';
+import './Project1.css';
 
 const Project1 = () => {
   const [projects, setProjects] = useState([])
@@ -17,7 +17,7 @@ const Project1 = () => {
           <h2>My Project 1</h2>
             {
                 projects.slice(0, 1).map(proJect => <div key={proJect._id}>
-                  <section className="">
+                  <section className="project">
                   <Carousel>
   <Carousel.Item>
     <img
@@ -59,19 +59,18 @@ const Project1 = () => {
                       <h3>{proJect.name}</h3>
                       <p>{proJect.intro}</p> 
                       <Link to={proJect.livesite}>
-                      <button className="btn btn-warning m-2">Visit {proJect.name.toLowerCase()} Website</button>
+                      <button className="btn my-btn m-2">Visit {proJect.name.toLowerCase()} Website</button>
                       </Link>
                       <Link to={proJect.clientcode}>
-                      <button className="btn btn-warning m-2">Clientsite code </button>
+                      <button className="btn my-btn m-2">Clientsite code </button>
                       </Link>
                       <Link to={proJect.servercode}>
-                      <button className="btn btn-warning m-2">Serversite code </button>
+                      <button className="btn my-btn m-2">Serversite code </button>
                       </Link>
                       <p>1.{proJect.point1}</p> 
                       <p>2.{proJect.point1}</p> 
                       <p>3.{proJect.point1}</p> 
-                      <p>4.{proJect.point1}</p> 
-                      <p>5.{proJect.point1}</p> 
+                     
                     </div>
                   </section>
           </div>)

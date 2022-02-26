@@ -1,7 +1,7 @@
 [
     
     {"_id" : "1",
-    "name": "carX",
+    "name": "MERN Stack Niche Product Website",
     "img1": "Images/Background/carx1.jpg",
     "img2": "Images/Background/carx2.jpg",
     "img3": "Images/Background/carx3.jpg",
@@ -9,15 +9,15 @@
     "clientcode": "https://github.com/mariamim06/ass-tlv-client",
     "servercode": "https://github.com/mariamim06/ass-tlv-server",
     "intro": "E-commarce based Website where users can find best cars offered by carX and can buy their needed car.",
-    "point1": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?",
-    "point2": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?",
-    "point3": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?",
+    "point1": "Authentication system added (user & admin)",
+    "point2": "Users can order cars, write reviews and these will be stored in the record and if the user wants, he can also delete orders.",
+    "point3": "Admin can add products, manage all products, manage all orders and also make admin too.",
     "point4": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?",
     "point5": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?"
 },
     
     {"_id" : "2",
-    "name": "tourX",
+    "name": "MERN Stack Tour Booking Website",
     "img1": "Images/Background/tourx1.jpg",
     "img2": "Images/Background/tourx2.jpg",
     "img3": "Images/Background/tourx3.jpg",
@@ -25,8 +25,8 @@
     "clientcode": "https://github.com/mariamim06/ass-elv-client",
     "servercode": "https://github.com/mariamim06/ass-elv-server",
     "intro": "Tour based Website where users can find best packages offered by tourX and can book their reservation trip.",
-    "point1": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?",
-    "point2": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?",
+    "point1": "Users can book any room and that will be stored in the database. And if the user wants, he can also see all order bookings. Also, users can add new services, manage all orders.",
+    "point2": "Admin can manage booking and receive reservations.",
     "point3": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?",
     "point4": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?",
     "point5": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?"
@@ -40,10 +40,10 @@
     "livesite": "images/packages/p-5.png",
     "clientcode": "images/packages/p-5.png",
     "servercode": "images/packages/p-5.png",
-    "intro": "News based Website where users can find best packages offered by tourX and can book their reservation trip.",
-    "point1": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?",
-    "point2": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?",
-    "point3": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?",
+    "intro": "A responsive News based Website where user can find information of football world.",
+    "point1": "This website is responcive for mobile, tablets and also large devices.",
+    "point2": "Few animations on hover are also added there.",
+    "point3": "Give a look and let me know how it is...",
     "point4": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?",
     "point5": "Do you find it difficult to search the hill-station packages for some specific destination and vice versa?"
 }

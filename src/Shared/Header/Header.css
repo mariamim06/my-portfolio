@@ -11,11 +11,11 @@
     background: linear-gradient(to left, #f3f1f3, rgb(243, 160, 243));
     color:rebeccapurple;
 }
-.navbar::before{
+.navbar::before{ 
     content: '';
     position: absolute;
     bottom: 0;
     width: 100%;
     background: linear-gradient(to bottom, #36193d, transparent);
     z-index: 1000;
-}
+} 

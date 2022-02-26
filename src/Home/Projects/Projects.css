@@ -1,3 +1,4 @@
+
 .svg{
     margin-top: -10px;
     /* border-bottom: 10px solid; */
@@ -19,13 +20,14 @@
     min-height:100%;
     padding-bottom: 50px;
 }
-.projects h2{
+.welcome{
     /* color: rgb(172, 222, 255); */
     margin: 100px;
-    font-family: cursive;
+    margin-bottom: 7rem;
+    font-family: 'Shizuru', cursive;
     font-weight: 900;
     font-size: 3em;
-    letter-spacing: 15px;
+    /* letter-spacing: 15px; */
     color: #1c0522;
     text-align: center;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
@@ -41,24 +43,45 @@
     }
     10%,18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
     {
-        color: cyan;
+        color: #ffffff;
         box-shadow: 0 0 10px #03bcf4,
         0 0 20px #03bcf4,
-        0 0 40px #03bcf4,
+        0 0 40px #f8f8f8,
         0 0 80px #03bcf4,
         0 0 160px #03bcf4,
     }
 }
-
+.project-container h1{
+    color: rgb(240, 230, 250);
+    font-family:cursive ;
+    font-size: 3em;
+    font-weight: 900;
+    padding:3rem;
+    margin-bottom: 3rem;
+}
+.project-container h3{
+    color: rgb(240, 230, 250);
+    /* font-family:cursive ; */
+    font-size: 1.5em;
+    font-weight: 900;
+    padding-bottom:1rem;
+    margin-bottom: rem;
+}
+.project-container{
+    background-color: #1c0522;
+    margin-top: -30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 .project{
     /* padding: 50px; */
     display: flex;
-    justify-content: space-between;
-    color: rgb(41, 23, 2);
+    justify-content: center;
+    color: rgb(250, 249, 249);
     border-radius: 5px;
     font-size: 1.5rem;
     font-weight: 400;
-    background-color: rgba(188, 208, 250, 0.7);
+    /* background-color: rgba(188, 208, 250, 0.7); */
     /* padding: 70px; */
     margin: 40px;
 }
@@ -68,14 +91,45 @@
     /* rgb(77, 72, 105) 
 } */
 .img{
-    width: 551px;
-    height: 400px;
-}
+    width: 100%;
+    height: 370px;
+    border-radius: 20px;
+    z-index: 500;
+    margin-right: -5rem;
+    
+} 
 .visually-hidden{
     display: none;
 }
 button{
     display: none;
+}
+.my-btn{
+    border-radius: 10px;
+    background-color:rgb(102, 98, 129);
+    font-weight: 400;
+    color: #0c000f;
+}
+.my-btn:hover{
+    background-color:rgb(27, 12, 46);
+    font-weight: 400;
+    color: whitesmoke;
+}
+.projectIntro{
+    background-color: rgb(70, 61, 124);
+    box-shadow: 5px 5px 10px rgb(128, 117, 224);
+    /* opacity: 50%; */
+    color: rgb(24, 24, 66);
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    padding:3rem;
+    border-radius: 25px;
+    margin-left: -5rem;
+    z-index: 1000;
+}
+.projectIntro:hover{
+    color: black;
+    background-color: rgb(95, 66, 141);
 }
 
 
