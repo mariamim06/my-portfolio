@@ -65,6 +65,10 @@
     .Intro{
         padding: 1rem;
     }
+    .intro-btns{
+        display: flex;
+        flex-direction: column;
+    }
 }
 @media only screen and (min-width:689px) and (max-width:991px){
     .flexbox{
@@ -77,5 +81,9 @@
     }
     .Intro{
     padding: 1rem;
+}
+.intro-btns{
+    display: flex;
+    flex-direction: column;
 }
 }

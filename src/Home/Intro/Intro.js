@@ -15,7 +15,10 @@ function Intro() {
         <h6>Hi there, My name is</h6> <h1>MARIA MIM,</h1>
         <p>I'm a <span id="spc">designer</span> and <span id="spc">developer</span> devoted to craft beautiful web experiences <br/> focusing on <span id="spc">simplicity</span> and <span id="spc">purpose</span>.</p>
         <br/>
-        <Nav.Link as={HashLink} to="/main#sendMail" className="button">Contact Me</Nav.Link>
+       <div className="d-flex intro-btns">
+       <Nav.Link as={HashLink} to="/main#sendMail" className="button">Contact Me</Nav.Link>
+        <Nav.Link href="https://drive.google.com/file/d/1RmRb7BLYGMkuEvZ40zeRNJhLy_KfiQAf/view?usp=sharing" className="button">My Resume</Nav.Link>
+       </div>
       
       </div>
       <div className="contact">
