@@ -12,7 +12,7 @@ React Bootstrap, React Router, Firebase
 Authentication.</p>
           </div>
           <div className="Skill">
-              <h3>Famillier with</h3>
+              <h3>Familiar with</h3>
               <p>Material UI, Node JS, Next JS, React
 Native, MongoDB, Payment Gateway
 System.</p>
